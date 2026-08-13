@@ -1,0 +1,8 @@
+
+
+
+
+// actualizarIndicadores();
+// cargarFoto();
+// siguienteFoto();
+// anteriorFoto();

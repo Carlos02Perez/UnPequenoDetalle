@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #FFEFB0;
+    --card: #FFF7E6;
+    --yellow: #F4D35E;
+    --yellow-dark: #E9C46A;
+    --text: #4A4A4A;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background: var(--background);
+    color: var(--text);
+}
+
+button {
+    padding: 18px 45px;
+    border: none;
+    border-radius: 50px;
+    background: var(--yellow);
+    color: #5B4A1E;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 600;
+}
+
+button:hover {
+    transform: translateY(-4px);
+    background: var(--yellow-dark);
+    box-shadow: 0 12px 25px rgba(233,196,106,.35);
+}
+
+.oculto {
+    display: none !important;
+}
+

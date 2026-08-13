@@ -1,0 +1,114 @@
+#visorAlbum {
+    min-height: 100vh;
+    width: min(900px, 90%);
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.foto-album {
+    width: 380px;
+    background: white;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+    perspective: 1200px;
+    overflow: hidden;
+}
+
+.foto-album img {
+    width: 100%;
+    max-height: 380px;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.foto-album video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.foto-album img.ocultar,
+.foto-album video.ocultar {
+    display: none !important;
+}
+
+.mensaje-foto {
+    padding: 4px 8px 8px;
+}
+
+#textoAlbum {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+
+.indicadores {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.indicador {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    transition: .3s;
+}
+
+.indicador.activo {
+    width: 26px;
+    border-radius: 20px;
+    background: #E9C46A;
+}
+
+.controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 10px;
+}
+
+.controles button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background: #FFF8E8;
+    border: 1px solid #F1D98A;
+    color: #B88A1C;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,.08);
+    transition: .25s;
+}
+
+.controles button:hover {
+    background: #F4D35E;
+    color: white;
+    transform: translateY(-3px);
+}
+
+#contador {
+    min-width: 70px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #A67C00;
+}

@@ -1,0 +1,77 @@
+#albumes {
+    min-height: 100vh;
+    width: min(1100px, 90%);
+    margin: auto;
+    padding: 60px 0;
+    display: block;
+}
+
+#albumes h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Cormorant Garamond", serif;
+    color: #C89B3C;
+    margin-bottom: 50px;
+}
+
+.contenedor-albumes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.album {
+    width: 230px;
+    background: #FFF7E6;
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: .35s;
+    box-shadow: 0 10px 20px rgba(0,0,0,.08);
+}
+
+.album:hover {
+    transform: translateY(-8px);
+}
+
+.album span {
+    font-size: 60px;
+}
+
+.album h3 {
+    margin-top: 20px;
+    color: #555;
+}
+
+.btn-volver {
+    margin: 30px auto 0;
+    display: block;
+    width: fit-content;
+
+    background: transparent;
+    border: 2px solid #E9C46A;
+    color: #8B6A2B;
+
+    padding: 10px 20px;
+    border-radius: 30px;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-volver:hover {
+    background: #FAEDCD;
+    transform: translateY(-3px);
+}
+
+#albumes .btn-volver {
+    flex-basis: 100%;
+    width: 150px;
+    height: auto;
+
+    padding: 10px 15px;
+
+    margin: 20px auto 0;
+}

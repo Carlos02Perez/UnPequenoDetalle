@@ -1,0 +1,83 @@
+.inicio {
+    min-height: 100vh;
+    width: min(900px, 90%);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 65px;
+    color: #C89B3C;
+}
+
+.subtitulo {
+    max-width: 600px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.foto {
+    width: 320px;
+    background: white;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.08);
+}
+
+.foto img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    transition: opacity .8s ease;
+}
+
+.foto p {
+    padding-top: 9px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+    color: #4A4A4A;
+}
+
+.mensaje {
+    max-width: 700px;
+    background: var(--card);
+    padding: 30px;
+    border-radius: 20px;
+    line-height: 2;
+    box-shadow: 0 8px 20px rgba(0,0,0,.05);
+}
+
+.descripcion {
+    padding: 9px;
+}
+
+.descripcion p {
+    margin: 0;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.mensaje-felicitacion {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mensaje-felicitacion p {
+    margin: 0 0 18px;
+    line-height: 1.7;
+}
+
+.mensaje-felicitacion p:last-child {
+    margin-bottom: 0;
+}
+
