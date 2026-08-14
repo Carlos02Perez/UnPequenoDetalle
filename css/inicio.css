@@ -1,25 +1,26 @@
 .sorpresa {
+    width: 100%;
     min-height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    text-align: center;
 }
 
-
 .btn-sorpresa {
+    display: block;
+
     padding: 16px 30px;
 
+    border: none;
     border-radius: 50px;
 
-    border: none;
-
     background: #F4D35E;
-
     color: #5B4A1E;
 
     font-size: 18px;
-
     font-weight: 600;
 
     cursor: pointer;
@@ -27,14 +28,16 @@
     animation: pequeñoSalto 1.8s ease-in-out infinite;
 }
 
-
 @keyframes pequeñoSalto {
+
     0%, 100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-5px);
     }
+
 }
 
 .inicio {
