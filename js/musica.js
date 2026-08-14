@@ -1,45 +1,100 @@
-const canciones = [
-    "audio/FrutaFresca.mp3",
-    "audio/Quiereme.mp3",
-    "audio/Ojala.mp3"
+const cancionesAlbum = [
+
+    // ÁLBUM 1 — Nuestros inicios
+    [
+        {
+            archivo: "audio/album1-1.mp3",
+            inicio: 35,
+            duracion: 25
+        },
+        {
+            archivo: "audio/album1-2.mp3",
+            inicio: 45,
+            duracion: 25
+        }
+    ],
+
+    // ÁLBUM 2 — Nuestras aventuras
+    [
+        {
+            archivo: "audio/album2-1.mp3",
+            inicio: 40,
+            duracion: 30
+        },
+        {
+            archivo: "audio/album2-2.mp3",
+            inicio: 50,
+            duracion: 25
+        }
+    ],
+
+    // ÁLBUM 3 — Momentos inolvidables
+    [
+        {
+            archivo: "audio/album3-1.mp3",
+            inicio: 35,
+            duracion: 30
+        }
+    ]
+
 ];
 
-const inicioCanciones = [
-    9,  // Álbum 1 empieza en 0:35
-    20,  // Álbum 2 empieza en 0:20
-    17   // Álbum 3 empieza en 0:45
-];
 
-const volumenCanciones = [
-    0.30, // Álbum 1
-    0.12, // Álbum 2
-    0.12  // Álbum 3
-];
+const audio = new Audio();
 
-const duracionCanciones = [
-    60,  // Álbum 1 → 60 segundos
-    40,  // Álbum 2 → 75 segundos
-    55   // Álbum 3 → 55 segundos
-];
+let indiceCancion = 0;
+let temporizadorMusica = null;
 
-const musica = new Audio();
 
 function reproducirMusica(indiceAlbum) {
 
-    musica.src = canciones[indiceAlbum];
+    detenerMusica();
 
-    musica.currentTime = inicioCanciones[indiceAlbum];
+    indiceCancion = 0;
 
-    musica.volume = volumenCanciones[indiceAlbum];
-
-    musica.play();
-
+    reproducirCancion(indiceAlbum);
 }
+
+
+function reproducirCancion(indiceAlbum) {
+
+    const canciones = cancionesAlbum[indiceAlbum];
+
+    if (!canciones || indiceCancion >= canciones.length) {
+        return;
+    }
+
+    const cancion = canciones[indiceCancion];
+
+    audio.src = cancion.archivo;
+
+    audio.volume = 0.20;
+
+    audio.currentTime = cancion.inicio;
+
+    audio.play().catch(() => {});
+
+    temporizadorMusica = setTimeout(() => {
+
+        indiceCancion++;
+
+        reproducirCancion(indiceAlbum);
+
+    }, cancion.duracion * 1000);
+}
+
 
 function detenerMusica() {
 
-    musica.pause();
+    clearTimeout(temporizadorMusica);
 
-    musica.currentTime = 0;
+    temporizadorMusica = null;
 
+    audio.pause();
+
+    audio.currentTime = 0;
+
+    audio.removeAttribute("src");
+
+    audio.load();
 }
