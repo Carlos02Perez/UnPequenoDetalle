@@ -1,17 +1,18 @@
 .sorpresa {
-    width: 100%;
-    min-height: 100vh;
+    position: fixed;
+    inset: 0;
+
+    width: 100vw;
+    height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    text-align: center;
+    z-index: 1000;
 }
 
 .btn-sorpresa {
-    display: block;
-
     padding: 16px 30px;
 
     border: none;
