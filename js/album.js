@@ -33,6 +33,8 @@
         if (foto.video) {
 
             videoAlbum.src = foto.video;
+            videoAlbum.muted = true;
+            videoAlbum.volume = 0;
 
             videoAlbum.classList.remove("ocultar");
 
