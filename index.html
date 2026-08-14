@@ -14,11 +14,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/albumes.css">
+    <link rel="stylesheet" href="css/visor.css">
+    <link rel="stylesheet" href="temporal/proteccion.css">
 
 </head>
 
 <body>
+    <div id="proteccion">
 
+        <input
+            type="password"
+            id="clave"
+            placeholder="Contraseña"
+        >
+
+        <button id="entrar">
+            Entrar
+        </button>
+
+        <p id="errorClave"></p>
+
+    </div>
+<div id="contenidoPagina">
+    <section id="sorpresa" class="sorpresa">
+
+    <button id="btnSorpresa" class="btn-sorpresa">
+        🎁 Ver sorpresa
+    </button>
+
+</section>
 <section id="inicio" class="inicio">
 
     <h1>¡Feliz Cumpleaños Mico! 🎉</h1>
@@ -55,12 +81,11 @@
 
     <div class="mensaje">
         <p>
-            El siguiente apartado es un resumen o history time de los momentos que compartimos.
-
-            Este es un pequeño detalle que yo mismo me tomé el tiempo de realizar de principio a fin para ti,
-            para sacarte una pequeña sonrisa y aportar mi granito de arena en tu día, aunque no te pueda acompañar.
-
-            Espero que lo disfrutes, que te guste. Decirte que te quiero mucho y te extraño. 📸☀️
+            El siguiente apartado es un pequeño resumen de los momentos que hemos compartido. 📸
+            <br>
+            Para recorrerlo, solo debes deslizar hacia la izquierda o derecha para pasar de una foto o video a otro. Todas las fotos y los videos tienen un pequeño mensajito que va resumiendo y, a la vez, contando nuestra historia. ✨❤️
+            <br>
+            Este es un pequeño detalle que yo mismo me tomé el tiempo de realizar de principio a fin para ti, para sacarte una pequeña sonrisa y aportar mi granito de arena en tu día, aunque no te pueda acompañar. Espero que lo disfrutes, que te guste. Decirte que te quiero mucho y te extraño. ☀️
         </p>
     </div>
 
@@ -139,6 +164,7 @@
     </button>
 
 </section>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 
@@ -149,11 +175,8 @@
 <script src="js/album.js"></script>
 <script src="js/navegacion.js"></script>
 <script src="js/gestos.js"></script>
+<script src="temporal/proteccion.js"></script>
 
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/inicio.css">
-<link rel="stylesheet" href="css/albumes.css">
-<link rel="stylesheet" href="css/visor.css">
 
 
 

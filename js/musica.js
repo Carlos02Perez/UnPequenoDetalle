@@ -3,37 +3,37 @@ const cancionesAlbum = [
     // ÁLBUM 1 — Nuestros inicios
     [
         {
-            archivo: "audio/album1-1.mp3",
-            inicio: 35,
-            duracion: 25
+            archivo: "audio/TeQuiero.mp3",
+            inicio: 31,
+            duracion: 31
         },
         {
-            archivo: "audio/album1-2.mp3",
-            inicio: 45,
-            duracion: 25
+            archivo: "audio/FrutaFresca.mp3",
+            inicio: 33,
+            duracion: 31
         }
     ],
 
     // ÁLBUM 2 — Nuestras aventuras
     [
         {
-            archivo: "audio/album2-1.mp3",
-            inicio: 40,
-            duracion: 30
+            archivo: "audio/SalirConVida.mp3",
+            inicio: 3,
+            duracion: 65
         },
         {
-            archivo: "audio/album2-2.mp3",
-            inicio: 50,
-            duracion: 25
+            archivo: "audio/Quiereme.mp3",
+            inicio: 87,
+            duracion: 50
         }
     ],
 
     // ÁLBUM 3 — Momentos inolvidables
     [
         {
-            archivo: "audio/album3-1.mp3",
-            inicio: 35,
-            duracion: 30
+            archivo: "audio/Ojala.mp3",
+            inicio: 18,
+            duracion: 37
         }
     ]
 
@@ -43,6 +43,7 @@ const cancionesAlbum = [
 const audio = new Audio();
 
 let indiceCancion = 0;
+let albumActualMusica = null;
 let temporizadorMusica = null;
 
 
@@ -50,21 +51,24 @@ function reproducirMusica(indiceAlbum) {
 
     detenerMusica();
 
+    albumActualMusica = indiceAlbum;
     indiceCancion = 0;
 
-    reproducirCancion(indiceAlbum);
+    reproducirCancion();
 }
 
 
-function reproducirCancion(indiceAlbum) {
+function reproducirCancion() {
 
-    const canciones = cancionesAlbum[indiceAlbum];
+    const canciones = cancionesAlbum[albumActualMusica];
 
-    if (!canciones || indiceCancion >= canciones.length) {
+    if (!canciones) {
         return;
     }
 
     const cancion = canciones[indiceCancion];
+
+    audio.pause();
 
     audio.src = cancion.archivo;
 
@@ -74,11 +78,20 @@ function reproducirCancion(indiceAlbum) {
 
     audio.play().catch(() => {});
 
+
+    clearTimeout(temporizadorMusica);
+
     temporizadorMusica = setTimeout(() => {
 
         indiceCancion++;
 
-        reproducirCancion(indiceAlbum);
+        // Cuando llega a la última canción,
+        // vuelve nuevamente a la primera.
+        if (indiceCancion >= canciones.length) {
+            indiceCancion = 0;
+        }
+
+        reproducirCancion();
 
     }, cancion.duracion * 1000);
 }
@@ -97,4 +110,7 @@ function detenerMusica() {
     audio.removeAttribute("src");
 
     audio.load();
+
+    albumActualMusica = null;
+    indiceCancion = 0;
 }
