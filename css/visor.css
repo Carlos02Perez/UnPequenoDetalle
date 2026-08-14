@@ -112,3 +112,9 @@
     font-weight: 600;
     color: #A67C00;
 }
+
+#visorAlbum {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
