@@ -1,25 +1,58 @@
 const musicaCumple = new Audio("audio/TuRegalo.mp3");
 
 const inicioCumple = 11;
-const duracionCumple = 100;
+const duracionCumple = 300;
 
-btnSorpresa.addEventListener("click", () => {
+btnSorpresa.addEventListener("click", async () => {
 
     musicaCumple.volume = 0.40;
-
     musicaCumple.currentTime = inicioCumple;
 
-    musicaCumple.play();
+    try {
 
-    setTimeout(() => {
-        musicaCumple.pause();
-        musicaCumple.currentTime = 0;
-    }, duracionCumple * 1000);
+        await musicaCumple.play();
 
-    document.getElementById("sorpresa").classList.add("oculto");
+        document.getElementById("sorpresa").classList.add("oculto");
 
-    mostrarPantalla("inicio");
+        mostrarPantalla("inicio");
+
+        setTimeout(() => {
+
+            musicaCumple.pause();
+            musicaCumple.currentTime = 0;
+
+        }, duracionCumple * 1000);
+
+    } catch (error) {
+
+        console.log("El navegador bloqueó la reproducción:", error);
+
+    }
+
 });
+
+// const musicaCumple = new Audio("audio/TuRegalo.mp3");
+
+// const inicioCumple = 11;
+// const duracionCumple = 100;
+
+// btnSorpresa.addEventListener("click", () => {
+
+//     musicaCumple.volume = 0.40;
+
+//     musicaCumple.currentTime = inicioCumple;
+
+//     musicaCumple.play();
+
+//     setTimeout(() => {
+//         musicaCumple.pause();
+//         musicaCumple.currentTime = 0;
+//     }, duracionCumple * 1000);
+
+//     document.getElementById("sorpresa").classList.add("oculto");
+
+//     mostrarPantalla("inicio");
+// });
 
 const fotosPortada = [
 
