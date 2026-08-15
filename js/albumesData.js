@@ -259,42 +259,42 @@ const albumesData = [
             {
                 imagen: "img/fotos/inolvidables/1.jpg",
                 mensaje: `
-                Esta parte 3 fue la más difícil de escribir. Aquí no hay nada, porque no pudimos llegar a una tercera parte o experiencia. Así es la vida y así fue la voluntad de Dios.
+                    Esta tercera parte fue la más difícil de escribir. Aquí no hay nada, porque no pudimos llegar a una tercera parte o experiencia. Así es la vida y así fue la voluntad de Dios.
 
-                Aunque tengo muchas cosas que decirte, nunca lo he hecho porque preferí aceptar lo que tú realmente sentías y manifestaste en ese mensaje. Para mí, aunque quizás no compartía del todo lo que pensabas, no era la mejor solución cuestionarlo o debatirlo.
+                    Aunque tengo muchas cosas que decirte, nunca lo he hecho porque preferí aceptar lo que tú realmente sentías y manifestaste en ese mensaje. Para mí, aunque quizás no compartía del todo lo que pensabas, no era la mejor solución cuestionarlo o debatirlo.
 
-                Era tu decisión y tu sentir, y yo quise respetarlo.
+                    Era tu decisión y tu sentir, y yo quise respetarlo.
 
-                No es mentira que la distancia sí influyó en lo nuestro. Porque desde que iniciamos, y sabiendo tu posición, las cosas iban cada vez mejor y muy bien. Pero después de un tiempo de no vernos y no generar momentos juntos, las cosas fueron cambiando poco a poco, sin darnos cuenta.
+                    No es mentira que la distancia sí influyó en lo nuestro. Porque desde que iniciamos, y sabiendo tu posición, las cosas iban cada vez mejor y muy bien. Pero después de un tiempo de no vernos y no generar momentos juntos, las cosas fueron cambiando poco a poco, sin darnos cuenta.
 
-                Una vez fue nuestro tema de conversación: las relaciones a distancia. Coincidimos en que éramos dos personas de mucho contacto físico.
+                    Una vez, fue nuestro tema de conversación: las relaciones a distancia. Coincidimos en que éramos dos personas de mucho contacto físico.
 
-                En otra ocasión también hablamos y dijimos que, si no se generaban momentos con esa persona, llegaba un punto en el que no había tema de conversación ni mucho de qué hablar.
+                    En otra ocasión también hablamos y dijimos que, si no se generaban momentos con esa persona, llegaba un punto en el que no había tema de conversación ni mucho de qué hablar.
 
-                Y eso no es culpa de ninguno de los dos. Tampoco quiero que pienses que por algún momento he pensado que estás equivocada, que no fue la mejor decisión o que tengo algún resentimiento. No, jamás.
+                    Y eso no es culpa de ninguno de los dos. Tampoco quiero que pienses que por algún momento he pensado que estás equivocada, que no fue la mejor decisión o que tengo algún resentimiento. No, jamás.
 
-                Todo lo contrario. Yo me quedo con Mico, con esa niña linda y hermosa, con la que fueron muchísimos más los momentos buenos y las experiencias nuevas que quizás cualquier mal momento.
+                    Todo lo contrario. Yo me quedo con Mico, con esa niña linda y hermosa, con la que fueron muchísimos más los momentos buenos y las experiencias nuevas que quizás cualquier mal momento.
 
-                Recuerda que tenemos la oportunidad de influir de manera directa o indirecta en la vida de los demás, y tú lo has hecho conmigo de la mejor manera. Has influido en mí durante todo este tiempo y lo agradezco un montón.
+                    Recuerda que tenemos la oportunidad de influir de manera directa o indirecta en la vida de los demás, y tú lo has hecho conmigo de la mejor manera. Has influido en mí durante todo este tiempo y lo agradezco un montón.
 
-                Quizás también te preguntarás qué sentido tiene hacer todo esto, pero para mí tiene muchísimo sentido.
+                    Quizás también te preguntarás qué sentido tiene hacer todo esto, pero para mí tiene muchísimo sentido.
 
-                Para mí, tu cumpleaños, desde el día 1 de conocernos, fue algo que siempre tuve presente. 11 de septiembre. Siempre te lo recordaba y siempre pensaba en qué podía regalarte.
+                    Para mí, tu cumpleaños, desde el día 1 de conocernos, fue algo que siempre tuve presente. 11 de septiembre. Siempre te lo recordaba y siempre pensaba en qué podía regalarte.
 
-                Quizás nunca pensé que este momento llegaría y que quizás no fuéramos a estar juntos, pero aun así eso no ha restado valor ni importancia para mí.
+                    Quizás nunca pensé que este momento llegaría y que quizás no fuéramos a estar juntos, pero aun así eso no ha restado valor ni importancia para mí.
 
-                Por eso me tome el tiempo de gestionar y hacer todo lo posible para que de alguna u otra manera hacerte sentir especial y aportar en tu dia que se lo especial que es para ti.
+                    Por eso me tomé el tiempo de gestionar y hacer todo lo posible para que, de alguna u otra manera, pudiera hacerte sentir especial y aportar en tu día, porque sé lo especial que es para ti.
 
-                Pensé, completé y busqué muchas cosas que podía regalarte, y las conseguí. Pero también quise hacer esto con mis propias manos, para hacerlo un regalo propio, único y diferente para ti.
+                    Pensé, completé y busqué muchas cosas que podía regalarte, y las conseguí. Pero también quise hacer esto con mis propias manos, para hacerlo un regalo propio, único y diferente para ti.
 
-                Pero si por algún momento de la vida y Dios nos da la oportunidad nuevamente, y podemos hacer una tercera parte, iría aquí.
+                    Pero si por algún momento de la vida y Dios nos da la oportunidad nuevamente, y podemos hacer una tercera parte, iría aquí.
 
-                Yo sé que quizás, y muy probablemente, yo no llegaré a ser el hombre de tu vida, pero sí seré el hombre que tuvo las mejores intenciones contigo.
+                    Yo sé que quizás, y muy probablemente, no llegaré a ser el hombre de tu vida, pero sí seré el hombre que tuvo las mejores intenciones contigo.
 
-                Aunque hay muchas cosas más que quisiera decir, quédate con esto: no estoy triste porque todo terminó. Estoy feliz porque sucedió.
+                    Aunque hay muchas cosas más que quisiera decir, quédate con esto: no estoy triste porque todo terminó. Estoy feliz porque sucedió.
 
-                Feliz cumpleaños, Mico. Te quiero mucho y, en donde te encuentres ahora mismo leyendo todo esto, te mando un fuerte abrazo.
-            `
+                    Feliz cumpleaños, Mico. Te quiero mucho y, en donde te encuentres ahora mismo leyendo todo esto, te mando un fuerte abrazo.
+                `
             }
         ]
     }
