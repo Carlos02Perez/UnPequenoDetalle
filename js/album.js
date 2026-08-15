@@ -20,14 +20,20 @@
 
         if (foto.imagen) {
 
-            fotoAlbum.src = foto.imagen;
+            const nuevaImagen = new Image();
 
-            fotoAlbum.classList.remove("ocultar");
+            nuevaImagen.onload = () => {
+
+                fotoAlbum.src = foto.imagen;
+                fotoAlbum.classList.remove("ocultar");
+
+            };
+
+            nuevaImagen.src = foto.imagen;
 
             videoAlbum.pause();
             videoAlbum.removeAttribute("src");
             videoAlbum.load();
-
         }
 
         if (foto.video) {
@@ -50,12 +56,3 @@
 
         document.querySelector(".mensaje-foto").classList.remove("ocultar");
     }
-
-
-
-
-
-
-
-
-

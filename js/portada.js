@@ -5,7 +5,7 @@ const duracionCumple = 300;
 
 btnSorpresa.addEventListener("click", async () => {
 
-    musicaCumple.volume = 0.40;
+    musicaCumple.volume = 0.70;
     musicaCumple.currentTime = inicioCumple;
 
     try {
