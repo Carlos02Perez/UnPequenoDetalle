@@ -31,10 +31,6 @@ const albumesData = [
                 imagen: "img/fotos/primeros/e.png",
                 mensaje: "Y también me traías este hermoso detalle, al cual yo atesoro y aprecio al día de hoy."
             },
-            // {
-            //     imagen: "img/fotos/primeros/f.png",
-            //     mensaje: "Al cual yo atesoro y aprecio al dia de hoy"
-            // },
             {
                 video: "img/fotos/primeros/video4.mp4",
                 mensaje: "Después llegó uno de los días que más recuerdo contigo."
