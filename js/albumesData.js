@@ -283,6 +283,8 @@ const albumesData = [
 
                 Quizás nunca pensé que este momento llegaría y que quizás no fuéramos a estar juntos, pero aun así eso no ha restado valor ni importancia para mí.
 
+                Por eso me tome el tiempo de gestionar y hacer todo lo posible para que de alguna u otra manera hacerte sentir especial y aportar en tu dia que se lo especial que es para ti.
+
                 Pensé, completé y busqué muchas cosas que podía regalarte, y las conseguí. Pero también quise hacer esto con mis propias manos, para hacerlo un regalo propio, único y diferente para ti.
 
                 Pero si por algún momento de la vida y Dios nos da la oportunidad nuevamente, y podemos hacer una tercera parte, iría aquí.

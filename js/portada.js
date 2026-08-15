@@ -1,7 +1,7 @@
-const musicaCumple = new Audio("audio/cumple2.mp3");
+const musicaCumple = new Audio("audio/TuRegalo.mp3");
 
-const inicioCumple = 5;
-const duracionCumple = 28;
+const inicioCumple = 11;
+const duracionCumple = 100;
 
 btnSorpresa.addEventListener("click", () => {
 
@@ -20,24 +20,6 @@ btnSorpresa.addEventListener("click", () => {
 
     mostrarPantalla("inicio");
 });
-// const btnSorpresa = document.getElementById("btnSorpresa");
-
-// const inicioCumple = 35;
-// const duracionCumple = 25;
-
-// const musicaCumple = new Audio("audio/Cumple.mp3");
-
-// btnSorpresa.addEventListener("click", () => {
-
-//     musicaCumple.volume = 0.80;
-
-//     musicaCumple.play();
-
-//     document.getElementById("sorpresa").classList.add("oculto");
-
-//     mostrarPantalla("inicio");
-
-// });
 
 const fotosPortada = [
 
