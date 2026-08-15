@@ -1,4 +1,4 @@
-const claveCorrecta = "Mico";
+const claveCorrecta = "Mico0201";
 
 const proteccion = document.getElementById("proteccion");
 const contenidoPagina = document.getElementById("contenidoPagina");
