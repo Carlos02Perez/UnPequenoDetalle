@@ -51,13 +51,24 @@ albums.forEach((album, indice) => {
 });
 mostrarPantalla("inicio");
 
-
 if (volverInicio) {
     volverInicio.addEventListener("click", () => {
+
         detenerMusica();
+
+        musicaCumple.currentTime = inicioCumple;
+        musicaCumple.volume = 0.40;
+        musicaCumple.play().catch(() => {});
+
         mostrarPantalla("inicio");
     });
 }
+// if (volverInicio) {
+//     volverInicio.addEventListener("click", () => {
+//         detenerMusica();
+//         mostrarPantalla("inicio");
+//     });
+// }
 
 if (volverAlbumes) {
     volverAlbumes.addEventListener("click", () => {
@@ -111,3 +122,58 @@ function actualizarIndicadores(){
     });
 
 }
+
+document.addEventListener("visibilitychange", () => {
+
+    if (document.hidden) {
+
+        // Pausar música de los álbumes
+        pausarMusicaPorSalida();
+
+        // Pausar música de cumpleaños
+        musicaCumple.pause();
+
+        // Detener confeti
+        detenerConfeti();
+
+    } else {
+
+        // Reanudar música de los álbumes
+        reanudarMusicaPorRegreso();
+
+        // Reanudar confeti
+        iniciarConfeti();
+
+        // Reanudar música de cumpleaños solamente en el inicio
+        const inicio = document.getElementById("inicio");
+
+        if (!inicio.classList.contains("oculto")) {
+
+            musicaCumple.play().catch(() => {});
+
+        }
+
+    }
+
+});
+// document.addEventListener("visibilitychange", () => {
+
+//     if (document.hidden) {
+
+//         // Pausar música
+//         pausarMusicaPorSalida();
+
+//         // Detener nuevos efectos
+//         detenerConfeti();
+
+//     } else {
+
+//         // Reanudar música
+//         reanudarMusicaPorRegreso();
+
+//         // Reanudar efectos
+//         iniciarConfeti();
+
+//     }
+
+// });

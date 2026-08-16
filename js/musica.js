@@ -32,9 +32,15 @@ const cancionesAlbum = [
     [
         {
             archivo: "audio/Ojala.mp3",
-            inicio: 18,
-            duracion: 37
+            inicio: 17,
+            duracion: 39
+        },
+        {
+            archivo: "audio/Arroyito.mp3",
+            inicio: 8,
+            duracion: 60
         }
+
     ]
 
 ];
@@ -46,6 +52,9 @@ let indiceCancion = 0;
 let albumActualMusica = null;
 let temporizadorMusica = null;
 
+let musicaPausada = false;
+let tiempoInicioTemporizador = null;
+let tiempoRestante = null;
 
 function reproducirMusica(indiceAlbum) {
 
@@ -56,7 +65,6 @@ function reproducirMusica(indiceAlbum) {
 
     reproducirCancion();
 }
-
 
 function reproducirCancion() {
 
@@ -78,24 +86,60 @@ function reproducirCancion() {
 
     audio.play().catch(() => {});
 
-
     clearTimeout(temporizadorMusica);
+
+    tiempoRestante = cancion.duracion * 1000;
+    tiempoInicioTemporizador = Date.now();
 
     temporizadorMusica = setTimeout(() => {
 
         indiceCancion++;
 
-        // Cuando llega a la última canción,
-        // vuelve nuevamente a la primera.
         if (indiceCancion >= canciones.length) {
             indiceCancion = 0;
         }
 
         reproducirCancion();
 
-    }, cancion.duracion * 1000);
+    }, tiempoRestante);
 }
+// function reproducirCancion() {
 
+//     const canciones = cancionesAlbum[albumActualMusica];
+
+//     if (!canciones) {
+//         return;
+//     }
+
+//     const cancion = canciones[indiceCancion];
+
+//     audio.pause();
+
+//     audio.src = cancion.archivo;
+
+//     audio.volume = 0.20;
+
+//     audio.currentTime = cancion.inicio;
+
+//     audio.play().catch(() => {});
+
+
+//     clearTimeout(temporizadorMusica);
+
+//     temporizadorMusica = setTimeout(() => {
+
+//         indiceCancion++;
+
+//         // Cuando llega a la última canción,
+//         // vuelve nuevamente a la primera.
+//         if (indiceCancion >= canciones.length) {
+//             indiceCancion = 0;
+//         }
+
+//         reproducirCancion();
+
+//     }, cancion.duracion * 1000);
+// }
 
 function detenerMusica() {
 
@@ -113,4 +157,53 @@ function detenerMusica() {
 
     albumActualMusica = null;
     indiceCancion = 0;
+}
+
+function pausarMusicaPorSalida() {
+
+    if (audio.paused) {
+        return;
+    }
+
+    audio.pause();
+
+    const tiempoTranscurrido = Date.now() - tiempoInicioTemporizador;
+
+    tiempoRestante -= tiempoTranscurrido;
+
+    if (tiempoRestante < 0) {
+        tiempoRestante = 0;
+    }
+
+    clearTimeout(temporizadorMusica);
+
+    temporizadorMusica = null;
+}
+
+function reanudarMusicaPorRegreso() {
+
+    if (!albumActualMusica) {
+        return;
+    }
+
+    if (audio.src && audio.paused) {
+
+        audio.play().catch(() => {});
+
+        tiempoInicioTemporizador = Date.now();
+
+        temporizadorMusica = setTimeout(() => {
+
+            indiceCancion++;
+
+            const canciones = cancionesAlbum[albumActualMusica];
+
+            if (indiceCancion >= canciones.length) {
+                indiceCancion = 0;
+            }
+
+            reproducirCancion();
+
+        }, tiempoRestante);
+    }
 }

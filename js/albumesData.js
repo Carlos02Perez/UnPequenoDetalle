@@ -269,13 +269,21 @@ const albumesData = [
 
                     Y eso no es culpa de ninguno de los dos. Tampoco quiero que pienses que por algún momento he pensado que estás equivocada, que no fue la mejor decisión o que tengo algún resentimiento. No, jamás.
 
-                    Todo lo contrario. Yo me quedo con Mico, con esa niña linda y hermosa, con la que fueron muchísimos más los momentos buenos y las experiencias nuevas que quizás cualquier mal momento.
+                    Todo lo contrario. Yo me quedo con Mico📸, con esa niña linda y hermosa, con la que fueron muchísimos más los momentos buenos y las experiencias nuevas que quizás cualquier mal momento.
+
+                    Y quiero que sepas que fuiste una de las cosas más lindas que me pasaron en este 2026. Me llevo muchos momentos, experiencias y recuerdos bonitos de todo lo que vivimos, y por eso siempre voy a agradecer haberte conocido. 🌷
+
+                    A la fecha en que estoy escribiendo esto, no sé si quizás te haya llamado o escrito para felicitarte. No porque no quiera hacerlo, sino porque me conozco y sé que, cuando comienzo a hablar, de una u otra manera termino diciendo todas las cosas que siento y pienso —cosas buenas y lindas, claro—. Pero no estoy seguro de que quieras escucharlas, y tampoco es mi intención que hoy, en tu fecha, te sientas incómoda o algo parecido. Por eso preferí escribirlo acá.
+
+                    Tampoco quiero que pienses que has dejado de importarme, de gustarme o de quererte. Jamás. Créeme que todos los días te tengo presente, con ganas de verte, llamarte, preguntarte cómo estás y saber un poco de tu día a día. Pero no lo hago.
+
+                    Simplemente pienso en ti, le pido a Dios que te proteja y sigo con mi día a día. ❤️
 
                     Recuerda que tenemos la oportunidad de influir de manera directa o indirecta en la vida de los demás, y tú lo has hecho conmigo de la mejor manera. Has influido en mí durante todo este tiempo y lo agradezco un montón.
 
                     Quizás también te preguntarás qué sentido tiene hacer todo esto, pero para mí tiene muchísimo sentido.
 
-                    Para mí, tu cumpleaños, desde el día 1 de conocernos, fue algo que siempre tuve presente. 11 de septiembre. Siempre te lo recordaba y siempre pensaba en qué podía regalarte.
+                    Para mí, tu cumpleaños, desde el día 1 de conocernos, fue algo que siempre tuve presente. 11 de septiembre. Siempre te lo recordaba y siempre pensaba en qué podía regalarte. 🎂
 
                     Quizás nunca pensé que este momento llegaría y que quizás no fuéramos a estar juntos, pero aun así eso no ha restado valor ni importancia para mí.
 
@@ -289,7 +297,7 @@ const albumesData = [
 
                     Aunque hay muchas cosas más que quisiera decir, quédate con esto: no estoy triste porque todo terminó. Estoy feliz porque sucedió.
 
-                    Feliz cumpleaños, Mico. Te quiero mucho y, en donde te encuentres ahora mismo leyendo todo esto, te mando un fuerte abrazo.
+                    Feliz cumpleaños, Mico📸. Te quiero mucho y, en donde te encuentres ahora mismo leyendo todo esto, te mando un fuerte abrazo. ☀️
                 `
             }
         ]
