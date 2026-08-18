@@ -31,37 +31,23 @@ btnSorpresa.addEventListener("click", async () => {
 
 });
 
-// const musicaCumple = new Audio("audio/TuRegalo.mp3");
-
-// const inicioCumple = 11;
-// const duracionCumple = 100;
-
-// btnSorpresa.addEventListener("click", () => {
-
-//     musicaCumple.volume = 0.40;
-
-//     musicaCumple.currentTime = inicioCumple;
-
-//     musicaCumple.play();
-
-//     setTimeout(() => {
-//         musicaCumple.pause();
-//         musicaCumple.currentTime = 0;
-//     }, duracionCumple * 1000);
-
-//     document.getElementById("sorpresa").classList.add("oculto");
-
-//     mostrarPantalla("inicio");
-// });
 
 const fotosPortada = [
 
     "img/cumple/1.jpg",
+    "img/cumple/10.jpg",
+    "img/cumple/14.jpg",
     "img/cumple/2.jpg",
     "img/cumple/3.jpg",
+    "img/cumple/7.jpg",
+    "img/cumple/12.jpg",
     "img/cumple/4.jpg",
+    "img/cumple/13.jpg",
+    "img/cumple/8.jpg",
     "img/cumple/5.jpg",
-    "img/cumple/6.jpg"
+    "img/cumple/9.jpg",
+    "img/cumple/15.jpg",
+    "img/cumple/11.jpg"
 ];
 
 fotosPortada.forEach((ruta) => {
@@ -94,4 +80,4 @@ setInterval(() => {
 
     }, 250);
 
-}, 1850);
+}, 1550);

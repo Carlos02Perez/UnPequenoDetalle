@@ -31,16 +31,15 @@ const cancionesAlbum = [
     // ÁLBUM 3 — Momentos inolvidables
     [
         {
-            archivo: "audio/Ojala.mp3",
-            inicio: 17,
-            duracion: 39
-        },
-        {
             archivo: "audio/Arroyito.mp3",
             inicio: 8,
             duracion: 60
+        },
+        {
+            archivo: "audio/Ojala.mp3",
+            inicio: 17,
+            duracion: 39
         }
-
     ]
 
 ];
@@ -103,43 +102,6 @@ function reproducirCancion() {
 
     }, tiempoRestante);
 }
-// function reproducirCancion() {
-
-//     const canciones = cancionesAlbum[albumActualMusica];
-
-//     if (!canciones) {
-//         return;
-//     }
-
-//     const cancion = canciones[indiceCancion];
-
-//     audio.pause();
-
-//     audio.src = cancion.archivo;
-
-//     audio.volume = 0.20;
-
-//     audio.currentTime = cancion.inicio;
-
-//     audio.play().catch(() => {});
-
-
-//     clearTimeout(temporizadorMusica);
-
-//     temporizadorMusica = setTimeout(() => {
-
-//         indiceCancion++;
-
-//         // Cuando llega a la última canción,
-//         // vuelve nuevamente a la primera.
-//         if (indiceCancion >= canciones.length) {
-//             indiceCancion = 0;
-//         }
-
-//         reproducirCancion();
-
-//     }, cancion.duracion * 1000);
-// }
 
 function detenerMusica() {
 

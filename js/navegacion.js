@@ -63,12 +63,6 @@ if (volverInicio) {
         mostrarPantalla("inicio");
     });
 }
-// if (volverInicio) {
-//     volverInicio.addEventListener("click", () => {
-//         detenerMusica();
-//         mostrarPantalla("inicio");
-//     });
-// }
 
 if (volverAlbumes) {
     volverAlbumes.addEventListener("click", () => {
