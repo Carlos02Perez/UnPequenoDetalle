@@ -176,7 +176,11 @@ const albumesData = [
             },
             {
                 imagen: "img/fotos/aventuras/1.16.jpg",
-                mensaje: "Con un hermoso paisaje que nos acompañaba ese día, después de caminar un buen tiempo."
+                mensaje: "Con un hermoso paisaje que nos acompañaba."
+            },
+            {
+                imagen: "img/fotos/aventuras/nueva.jpg",
+                mensaje: "Ese día hasta me enseñabas a caminar bien."
             },
             {
                 imagen: "img/fotos/aventuras/1.17.jpg",
@@ -267,6 +271,10 @@ const albumesData = [
 
                     En otra ocasión también hablamos y dijimos que, si no se generaban momentos con esa persona, llegaba un punto en el que no había tema de conversación ni mucho de qué hablar.
 
+                    Y a día de hoy sigo creyendo que quizás tu decisión tuvo más que ver con la distancia que con no estar preparada o no sentirnos en la misma “sintonía”. Estábamos a 1.061 km de distancia, sin poder vernos, darnos un abrazo, un beso o tomarte de la mano y, a veces, con poco tiempo para hablar. Y creo que poco a poco eso fue creando una ruptura, una distancia entre los dos.
+
+                    Porque, como dije anteriormente, mientras estábamos juntos y podíamos compartir, todo iba por muy buen camino y se iba fortaleciendo día a día.
+
                     Y eso no es culpa de ninguno de los dos. Tampoco quiero que pienses que por algún momento he pensado que estás equivocada, que no fue la mejor decisión o que tengo algún resentimiento. No, jamás.
 
                     Todo lo contrario. Yo me quedo con Mico📸, con esa niña linda y hermosa, con la que fueron muchísimos más los momentos buenos y las experiencias nuevas que quizás cualquier mal momento.
@@ -299,6 +307,7 @@ const albumesData = [
 
                     Feliz cumpleaños, Mico📸. Te quiero mucho y, en donde te encuentres ahora mismo leyendo todo esto, te mando un fuerte abrazo. ☀️
                 `
+                
             }
         ]
     }

@@ -144,7 +144,7 @@ function pausarMusicaPorSalida() {
 
 function reanudarMusicaPorRegreso() {
 
-    if (!albumActualMusica) {
+    if (!albumActualMusica === null) {
         return;
     }
 
