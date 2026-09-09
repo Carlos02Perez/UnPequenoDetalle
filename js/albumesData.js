@@ -164,7 +164,7 @@ const albumesData = [
             },
             {
                 imagen: "img/fotos/aventuras/1.10.jpg",
-                mensaje: "En ese momento no había cansancio, no había sueño; solo sentía emoción y felicidad."
+                mensaje: "En ese momento no había cansancio, no había sueño; solo sentía emoción y felicidad. (esta es mi foto favorita)"
             },
             {
                 imagen: "img/fotos/aventuras/1.13.jpg",
@@ -196,7 +196,7 @@ const albumesData = [
             },
             {
                 video: "img/fotos/aventuras/video5.mp4",
-                mensaje: "Porque en ese momento sentía que era el hombre más afortunado del mundo y cada momento era cada vez mejor."
+                mensaje: "Porque en ese momento sentía que era el hombre más afortunado del mundo y cada momento era cada vez mejor. (este es mi video favorito)"
             },
             {
                 imagen: "img/fotos/aventuras/aa.png",

@@ -3,19 +3,39 @@ const cancionesAlbum = [
     // ÁLBUM 1 — Nuestros inicios
     [
         {
-            archivo: "audio/TeQuiero.mp3",
-            inicio: 31,
+            archivo: "audio/TeEncontre.mp3",
+            inicio: 27,
+            duracion: 39
+        },
+        {
+            archivo: "audio/EresMiSueno.mp3",
+            inicio: 41,
+            duracion: 28
+        },
+        {
+            archivo: "audio/SimplesCorazones.mp3",
+            inicio: 60,
             duracion: 31
         },
         {
             archivo: "audio/FrutaFresca.mp3",
-            inicio: 33,
-            duracion: 31
+            inicio: 42,
+            duracion: 24
+        },
+        {
+            archivo: "audio/TeQuiero.mp3",
+            inicio: 31,
+            duracion: 61
         }
     ],
 
     // ÁLBUM 2 — Nuestras aventuras
     [
+        {
+            archivo: "audio/TeMandoFlores.mp3",
+            inicio: 38,
+            duracion: 48
+        },
         {
             archivo: "audio/SalirConVida.mp3",
             inicio: 3,
@@ -23,23 +43,40 @@ const cancionesAlbum = [
         },
         {
             archivo: "audio/Quiereme.mp3",
-            inicio: 87,
-            duracion: 50
+            inicio: 20,
+            duracion: 96
+        },
+        {
+            archivo: "audio/ComoYo.mp3",
+            inicio: 45,
+            duracion: 21
         }
     ],
 
     // ÁLBUM 3 — Momentos inolvidables
     [
+
         {
             archivo: "audio/Arroyito.mp3",
-            inicio: 8,
-            duracion: 60
+            inicio: 10,
+            duracion: 35
         },
         {
             archivo: "audio/Ojala.mp3",
             inicio: 17,
             duracion: 39
-        }
+        },
+        {
+            archivo: "audio/CuandoNadieVe.mp3",
+            inicio: 44,
+            duracion: 40
+        },
+        {
+            archivo: "audio/BesosEnGuerra.mp3",
+            inicio: 33,
+            duracion: 36
+        },
+
     ]
 
 ];
