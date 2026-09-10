@@ -4,23 +4,23 @@ const cancionesAlbum = [
     [
         {
             archivo: "audio/TeEncontre.mp3",
-            inicio: 27,
-            duracion: 39
+            inicio: 18,
+            duracion: 48
         },
         {
             archivo: "audio/EresMiSueno.mp3",
-            inicio: 41,
-            duracion: 28
+            inicio: 36,
+            duracion: 34
         },
         {
             archivo: "audio/SimplesCorazones.mp3",
-            inicio: 60,
-            duracion: 31
+            inicio: 40,
+            duracion: 51
         },
         {
             archivo: "audio/FrutaFresca.mp3",
             inicio: 42,
-            duracion: 24
+            duracion: 31
         },
         {
             archivo: "audio/TeQuiero.mp3",
@@ -33,8 +33,8 @@ const cancionesAlbum = [
     [
         {
             archivo: "audio/TeMandoFlores.mp3",
-            inicio: 38,
-            duracion: 48
+            inicio: 9,
+            duracion: 77
         },
         {
             archivo: "audio/SalirConVida.mp3",
@@ -55,7 +55,6 @@ const cancionesAlbum = [
 
     // ÁLBUM 3 — Momentos inolvidables
     [
-
         {
             archivo: "audio/Arroyito.mp3",
             inicio: 10,
@@ -67,16 +66,15 @@ const cancionesAlbum = [
             duracion: 39
         },
         {
-            archivo: "audio/CuandoNadieVe.mp3",
-            inicio: 44,
-            duracion: 40
+            archivo: "audio/BesosEnGuerra.mp3",
+            inicio: 27,
+            duracion: 48
         },
         {
-            archivo: "audio/BesosEnGuerra.mp3",
-            inicio: 33,
-            duracion: 36
-        },
-
+            archivo: "audio/CuandoNadieVe.mp3",
+            inicio: 34,
+            duracion: 62
+        }
     ]
 
 ];

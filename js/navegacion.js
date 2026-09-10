@@ -49,7 +49,7 @@ albums.forEach((album, indice) => {
     });
 
 });
-mostrarPantalla("inicio");
+// mostrarPantalla("inicio");
 
 if (volverInicio) {
     volverInicio.addEventListener("click", () => {

@@ -80,6 +80,10 @@ const albumesData = [
                 mensaje: "Y fue cuando prometí que, si te ibas a la China, allá iba a ir por ti."
             },
             {
+                imagen: "img/fotos/primeros/rr.png",
+                mensaje: "Ese día nos prometimos varias cosas, y aunque el tiempo haya pasado, yo todavía mantengo en pie cada una de ellas."
+            },
+            {
                 imagen: "img/fotos/primeros/b.png",
                 mensaje: "Ya sabiendo que, aunque lejos, aún iba a seguir en comunicación contigo, fue cuando decidí hacerte un pequeño detalle."
             },
@@ -136,7 +140,7 @@ const albumesData = [
             },
             {
                 imagen: "img/fotos/aventuras/1.7.jpg",
-                mensaje: "Comencé a atravesar varias ciudades, cruzando la mitad del país solo para volver a verte."
+                mensaje: "Comencé a atravesar varias ciudades, cruzando la mitad del país solo para volver a verte. Y lo volvería a hacer si en algún momento fuera necesario."
             },
             {
                 imagen: "img/fotos/aventuras/1.8.jpg",
@@ -305,7 +309,7 @@ const albumesData = [
 
                     Aunque hay muchas cosas más que quisiera decir, quédate con esto: no estoy triste porque todo terminó. Estoy feliz porque sucedió.
 
-                    Feliz cumpleaños, Mico📸. Te quiero mucho y, en donde te encuentres ahora mismo leyendo todo esto, te mando un fuerte abrazo. ☀️
+                    Feliz cumpleaños, Mico📸. Te quiero mucho y, en donde te encuentres ahora mismo leyendo todo esto, te extraño, me has hecho mucha falta, te mando un beso y un fuerte abrazo. ☀️
                 `
                 
             }
