@@ -12,15 +12,15 @@ const albumesData = [
                 mensaje: "Justamente ya hoy estás de cumpleaños"
             },
             {
-                imagen: "img/fotos/primeros/3.png",
+                imagen: "img/fotos/primeros/3.jpg",
                 mensaje: "Al mismo tiempo, ya me interesaba en conocerte y ver quién era Jessica, quién era Mico. Y más que una cara bonita, empecé a descubrir que eras una mujer grandiosa, maravillosa y muy encantadora, centrada en lo que quiere."
             },
             {
-                imagen: "img/fotos/primeros/p.png",
+                imagen: "img/fotos/primeros/p.jpg",
                 mensaje: "También descubrí un talento y una magia extraordinaria en tus manos, algo que para mí era de admirar. Quizás para ti no era gran cosa, pero para mí era grandioso."
             },
             {
-                imagen: "img/fotos/primeros/g.png",
+                imagen: "img/fotos/primeros/g.jpg",
                 mensaje: "Luego te ibas a Medellín, y sin saber nada me llamaste en uno de los mejores momentos de todos."
             },
             {
@@ -28,7 +28,7 @@ const albumesData = [
                 mensaje: "Justamente iba a cantar FEID. Un momento difícil de olvidar para mi."
             },
             {
-                imagen: "img/fotos/primeros/e.png",
+                imagen: "img/fotos/primeros/e.jpg",
                 mensaje: "Y también me traías este hermoso detalle, al cual yo atesoro y aprecio al día de hoy."
             },
             {
@@ -72,23 +72,23 @@ const albumesData = [
                 mensaje: "Ya te habían llamado para un trabajo. Era muy lejos, pero era una gran oportunidad. Recuerdo muy bien que cuando me lo comentaste, yo estaba muy contento por ti."
             },
             {
-                imagen: "img/fotos/primeros/17.png",
+                imagen: "img/fotos/primeros/17.jpg",
                 mensaje: "Pero otra parte de mí quedaba un poco triste porque te ibas. Tú, con pocas palabras, me diste seguridad y confianza: no habías considerado que dejáramos de hablar."
             },
             {
-                imagen: "img/fotos/primeros/h.png",
+                imagen: "img/fotos/primeros/h.jpg",
                 mensaje: "Y fue cuando prometí que, si te ibas a la China, allá iba a ir por ti."
             },
             {
-                imagen: "img/fotos/primeros/rr.png",
+                imagen: "img/fotos/primeros/rr.jpg",
                 mensaje: "Ese día nos prometimos varias cosas, y aunque el tiempo haya pasado, yo todavía mantengo en pie cada una de ellas."
             },
             {
-                imagen: "img/fotos/primeros/b.png",
+                imagen: "img/fotos/primeros/b.jpg",
                 mensaje: "Ya sabiendo que, aunque lejos, aún iba a seguir en comunicación contigo, fue cuando decidí hacerte un pequeño detalle."
             },
             {
-                imagen: "img/fotos/primeros/a.png",
+                imagen: "img/fotos/primeros/a.jpg",
                 mensaje: "Tú lo entendiste muy bien. Con este detalle no te estaba proponiendo ni pidiendo nada."
             },
             {
@@ -111,7 +111,7 @@ const albumesData = [
                 mensaje: "Y así empezaba una nueva etapa en tu vida, una nueva experiencia para ti."
             },
             {
-                imagen: "img/fotos/aventuras/s.png",
+                imagen: "img/fotos/aventuras/s.jpg",
                 mensaje: "Salías desde Santa Marta manejando, pasando por Medellín y Bogotá, pero todo con esa gran actitud y tranquilidad que te caracteriza."
             },
             {
@@ -127,11 +127,11 @@ const albumesData = [
                 mensaje: "Incluso llegaste a perderte y a cuestionarte si era lo mejor ir hasta por allá."
             },
             {
-                imagen: "img/fotos/aventuras/q.png",
+                imagen: "img/fotos/aventuras/q.jpg",
                 mensaje: "Y así fue. Fuiste tú quien lideró todo y supiste sacar adelante esas situaciones de la mejor manera, como siempre afrontas todos tus retos y desafíos."
             },
             {
-                imagen: "img/fotos/aventuras/d.png",
+                imagen: "img/fotos/aventuras/d.jpg",
                 mensaje: "Mientras tú empezabas esta nueva etapa, al mismo tiempo empezaba mi propia experiencia y travesía para volver a verte."
             },
             {
@@ -151,7 +151,7 @@ const albumesData = [
                 mensaje: "En lo único que pensaba era en ti, en poder verte y darte una sorpresa."
             },
             {
-                imagen: "img/fotos/aventuras/i.png",
+                imagen: "img/fotos/aventuras/i.jpg",
                 mensaje: "7 de junio de 2026. Después de más de 20 horas de viaje, llegaba a mi destino."
             },
             {
@@ -203,7 +203,7 @@ const albumesData = [
                 mensaje: "Porque en ese momento sentía que era el hombre más afortunado del mundo y cada momento era cada vez mejor. (este es mi video favorito)"
             },
             {
-                imagen: "img/fotos/aventuras/aa.png",
+                imagen: "img/fotos/aventuras/aa.jpg",
                 mensaje: "También pude descubrir que tenía talento para cocinar, aunque nunca había cocinado en mi vida."
             },
             {
@@ -211,15 +211,15 @@ const albumesData = [
                 mensaje: "Pero cocinar para ti era algo que me hacía feliz y alegre. Siempre estaba pensando y buscando qué hacer de desayuno, qué hacer hoy de almuerzo o qué íbamos a cenar."
             },
             {
-                imagen: "img/fotos/aventuras/w.png",
+                imagen: "img/fotos/aventuras/w.jpg",
                 mensaje: "Pero más que cocinar, lo que quería era verte feliz y alegre, buscando siempre la manera de que estuvieras contenta y que nada te faltara."
             },
             {
-                imagen: "img/fotos/aventuras/x.png",
+                imagen: "img/fotos/aventuras/x.jpg",
                 mensaje: "También salía todas las mañanas a acompañarte a tu trabajo y esperaba que llegara el mediodía, y luego la noche, para poder verte."
             },
             {
-                imagen: "img/fotos/aventuras/y.png",
+                imagen: "img/fotos/aventuras/y.jpg",
                 mensaje: "Todos esos momentos fueron tan lindos como ese atardecer. Eran momentos sencillos, pero para mí significaban muchísimo."
             },
             {
@@ -227,7 +227,7 @@ const albumesData = [
                 mensaje: "Pero después de varios días y momentos a tu lado, llegaba la hora de volver a la realidad, con un nudo en la garganta y con ganas de no tomar ese bus."
             },
             {
-                imagen: "img/fotos/aventuras/c.png",
+                imagen: "img/fotos/aventuras/c.jpg",
                 mensaje: "De volver nuevamente a quedar a 1.061 km de distancia de ti."
             },
             {
@@ -235,23 +235,23 @@ const albumesData = [
                 mensaje: "Y me llevaba estos lindos imanes como compañeros de viaje."
             },
             {
-                imagen: "img/fotos/aventuras/j.png",
+                imagen: "img/fotos/aventuras/j.jpg",
                 mensaje: "Después de eso, contaba los días que faltaban para que pudiéramos volver a vernos o para poder volver a ir."
             },
             {
-                imagen: "img/fotos/aventuras/k.png",
+                imagen: "img/fotos/aventuras/k.jpg",
                 mensaje: "Y con fotos tuyas de cualquier cosa, me sentía cerca de ti."
             },
             {
-                imagen: "img/fotos/aventuras/l.png",
+                imagen: "img/fotos/aventuras/l.jpg",
                 mensaje: "Siempre con alguna ocurrencia me sacabas una sonrisa."
             },
             {
-                imagen: "img/fotos/aventuras/n.png",
+                imagen: "img/fotos/aventuras/n.jpg",
                 mensaje: "Porque siempre me gustaba verte."
             },
             {
-                imagen: "img/fotos/aventuras/o.png",
+                imagen: "img/fotos/aventuras/o.jpg",
                 mensaje: "Y esta fue una de las últimas fotos que me enviastes."
             },
         ]
