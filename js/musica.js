@@ -51,31 +51,8 @@ const cancionesAlbum = [
             inicio: 45,
             duracion: 21
         }
-    ],
-
-    // ÁLBUM 3 — Momentos inolvidables
-    [
-        {
-            archivo: "audio/Arroyito.mp3",
-            inicio: 10,
-            duracion: 35
-        },
-        {
-            archivo: "audio/Ojala.mp3",
-            inicio: 17,
-            duracion: 39
-        },
-        {
-            archivo: "audio/BesosEnGuerra.mp3",
-            inicio: 27,
-            duracion: 48
-        },
-        {
-            archivo: "audio/CuandoNadieVe.mp3",
-            inicio: 34,
-            duracion: 62
-        }
     ]
+  // ÁLBUM 3 — Momentos inolvidables
 
 ];
 
